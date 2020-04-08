@@ -1,11 +1,11 @@
 {
-  "name": "todo_app",
+  "name": "limni",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "serve": "serve ./main.js",
+    "build": "./dist/todo_app ./main.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -21,7 +21,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   }
