@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { tomorrow } from './shared'
+import { tomorrow } from '../shared'
 
 Vue.use(Vuex)
 

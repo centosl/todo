@@ -43,9 +43,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #app {
-  position: relative;
-  min-height: 100%;
-  width: 100%;
-  overflow-x: hidden;
+  height: 100%;
+  overflow: hidden;
 }
 </style>

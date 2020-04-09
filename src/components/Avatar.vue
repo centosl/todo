@@ -1,8 +1,8 @@
 <template>
   <div class="avatar" :class="{ avatar__selected: !!selected }">
-    <!-- <div class="avatar_face">
+    <div class="avatar_face">
       <img src="../assets/face.jpeg" />
-    </div> -->
+    </div>
     <h2 class="avatar_name">Hello, Jane.</h2>
     <p class="avatar_tips">
       Looks like feed good.<br />You have {{ todayTasks.length }} tasks to do
@@ -38,8 +38,8 @@ export default {
 <style lang="scss">
 .avatar {
   display: flex;
-  padding: 20px 40px 0;
-  height: auto;
+  padding: 0 40px;
+  height: 300px;
   justify-content: flex-end;
   flex-direction: column;
   transition: all 0.5s ease;
@@ -62,13 +62,14 @@ export default {
   }
 }
 .avatar_name {
+  margin-top: 32px;
   padding: 0 6px;
   font-size: 32px;
   letter-spacing: 1px;
   font-weight: 300;
 }
 .avatar_tips {
-  margin-top: 20px;
+  margin-top: 16px;
   padding: 0 6px;
   font-size: 13px;
   font-weight: 100;
@@ -76,7 +77,7 @@ export default {
   line-height: 1.6em;
 }
 .avatar_date {
-  margin-top: 30px;
+  margin-top: 44px;
   margin-bottom: 16px;
   padding: 0 6px;
   font-size: 14px;

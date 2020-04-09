@@ -36,7 +36,6 @@ export default {
   height: 44px;
   font-size: 15px;
   z-index: 1;
-  width: 100%;
 
   h1 {
     display: flex;
